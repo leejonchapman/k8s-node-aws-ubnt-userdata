@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt full-upgrade
 sudo snap install microk8s --classic --channel=1.18/stable
 sudo microk8s status --wait-ready
